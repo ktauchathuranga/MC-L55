@@ -5,11 +5,11 @@ Time : 6:10 PM
 Date : 7/12/2022
 =============================================*/
 // unit = 1200 / wpm
-int timeoutTime = 10000;
-int morseLedPin = 13;
-int unitTime = 80;
-char encodeText [254] = "A SOS"; //should be capital
-int cycleInterval = 1000;
+int timeoutTime = 10000;             // startup text timout time
+int morseLedPin = 13;                // led pin
+int unitTime = 80;                   // unit time in ms, if you want 15 WPM, unitTime = 1200 / 15
+char encodeText [254] = "A SOS";     // should be capital
+int cycleInterval = 1000;            // full loop interval
 String extraText;
 String coustomUT;
 String coustomCI;
