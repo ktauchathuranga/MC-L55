@@ -1,5 +1,6 @@
 # MC-L55
 Morse Code to Light Encoder with Complete Control
+(this is outdated; please visit [here](https://github.com/ktauchathuranga/MorseEncoder) for a more efficient library)
 
 tested with arduino uno rev 3
 use serial com to change the parameters at the startup so use serial monitor!
